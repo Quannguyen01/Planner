@@ -1,5 +1,8 @@
 {
   "packages": {
-    "npm": {}
+    "jquery-ui": {},
+    "bootstrap-3": {},
+    "houston": {},
+    "collectionFS": {}
   }
 }

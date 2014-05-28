@@ -1,0 +1,30 @@
+<!--loadDialog-->
+<template name="loadDialog">
+	<div class="modal fade" role="dialog" id="loadDialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4>Load Schedule</h4>
+				</div>
+				<div class="modal-body">
+					<div class="input-group">
+						<span class="input-group-btn">
+							<div class="btn-file btn btn-danger">
+								<span>Upload</span>
+								<input id="browse" type="file"/>
+							</div>
+						</span>
+						<input id="uploadFile" class="form-control" placeholder="Choose File" type="text" disabled/>
+					</div>
+					<div class="warning"></div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-danger" id="load">Load</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>
+<!--End loadDialog -->

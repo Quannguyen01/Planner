@@ -1,0 +1,25 @@
+<!--===========================================================-->
+<template name="Planner">
+<!-- Planner - main stuff -->
+	{{>Toolbar}}
+
+	<div id="planner">
+		<!--Planner-->
+		{{#each semesters}}
+		<div class="panel panel-default {{css}}">
+			<div class="panel-heading">
+				<a type="button" class="btn btn-default edit">
+					<span class="glyphicon glyphicon-align-justify"></span>
+				</a>
+				<span class="panel-heading lead">{{Term}} {{Year}}</span>
+				<span class="panel_heading pull-right lead">Credit: {{Credit}}</span>
+			</div>
+			<div class="panel-body semester-course link">
+				{{#each course}}
+					<a class="btn btn-default text-center course {{Conflict}}" title="{{Name}}">{{CourseID}}</a>
+				{{/each}}
+			</div>
+		</div>
+		{{/each}}
+	</div>
+</template>

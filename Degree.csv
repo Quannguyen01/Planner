@@ -1,0 +1,81 @@
+Course ID,Name,Subject,Credit Hours,Category,Corequisite,Prerequisite,Season,Year
+CS-1093,Making Connection CS,CS,3,FYE,,,"Spring, Fall, Summer",
+UC-1013,Making Connection,UC,3,FYE,,,"Spring, Fall, Summer",
+ENG-1003,Composition I,ENG,3,Communication,,,"Spring, Fall, Summer",
+ENG-1013,Composition II,ENG,3,Communication,,ENG-1003,"Spring, Fall, Summer",
+SCOM-1203,Oral Communication,SCOM,3,Communication,,,"Spring, Fall, Summer",
+MATH-1023,College Algebra,MATH,3,Math,,,"Spring, Fall, Summer",
+ART-2503,Fine Arts-Visual,ART,3,Fine Arts,,,"Spring, Fall, Summer",
+MUS-2503,Fine Arts-Music,MUS,3,Fine Arts,,,"Spring, Fall, Summer",
+THEA-2503,Fine Arts-Theater,THEA,3,Fine Arts,,,"Spring, Fall, Summer",
+ENG-2003,Intro Literature I,ENG,3,Humanities,,,"Spring, Fall, Summer",
+ENG-2013,Intro Literature II,ENG,3,Humanities,,,"Spring, Fall, Summer",
+PHIL-1103,Intro to Philosophy,PHIL,3,Humanities,,,"Spring, Fall, Summer",
+ECON-2333,Economic Issues & Concept,ECON,3,Global Issues,,,"Spring, Fall, Summer",
+ANTH-2233,Intro to Antropology,ANTH,3,Global Issues,,,"Spring, Fall, Summer",
+GEOG-2613,Intro to Geography,GEOR,3,Global Issues,,,"Spring, Fall, Summer",
+HIST-1013,World Civilization To 1660,HIST,3,Global Issues,,,"Spring, Fall, Summer",
+HIST-1023,World Civilization Since 1660,HIST,3,Global Issues,,,"Spring, Fall, Summer",
+JOUR-1003,Mass Communication,JOUR,3,Global Issues,,,"Spring, Fall, Summer",
+POSC-1003,Intro to Politics,POSC,3,Global Issues,,,"Spring, Fall, Summer",
+PSY-2013,Intro to Psychology,PSY,3,Global Issues,,,"Spring, Fall, Summer",
+HIST-2763,The US To 1876,HIST,3,U.S,,,"Spring, Fall, Summer",
+HIST-2773,The US Since 1876,HIST,3,U.S,,,"Spring, Fall, Summer",
+POSC-2103,Intro to US Govt,POSC,3,U.S,,,"Spring, Fall, Summer",
+BIOL-1003,Biological Sciene,BIOL,3,Life Sciences,,,"Spring, Fall, Summer",
+BIOL-1033,Biology of Sex,BIOL,3,Life Sciences,,,"Spring, Fall, Summer",
+BIOL-1043,Plants and People,BIOL,3,Life Sciences,,,"Spring, Fall, Summer",
+BIOL-1001,Biological Science Lab,BIOL,1,Life Sciences,,,"Spring, Fall, Summer",
+PHYS-2034,University Physics I,PHYS,4,Physical Sciences,MATH-2204,,"Spring, Fall",
+PHYS-2054,General Physics I,PHYS,4,Physical Sciences,,MATH-1033,"Spring, Fall, Summer",
+PHYS-2073,Fundamental Physics I,PHYS,3,Physical Sciences,MATH-2204,,,Demand
+PHYS-2071,Fundamental Physics I Lab,PHYS,1,Physical Sciences,,,,Demand
+CS-1114,Concept of Programming,CS,4,Core,,,"Spring, Fall",
+CS-2114,Structured Programming,CS,4,Core,,,"Spring, Fall",
+CS-2124,OOP & Fundamental Data Structures,CS,4,Core,,CS-2114,"Spring, Fall",
+CS-3113,Algorithms & Adv Data Structures,CS,3,Core,,"MATH-2204, CS-2124","Spring, Fall",
+CS-3233,Operating System,CS,3,Core,,CS-3113,Spring,
+CS-4113,Software Engineering,CS,3,Core,,CS-3113,Fall,
+CS-4143,Java and Application Development,CS,3,Core,,"CS-3123, CS-3223, CS-3233",Spring,
+CS-4313,Computer Networking,CS,3,Core,,CS-3233,Spring,
+CS-4543,Database Systems,CS,3,Core,,CS-3113,Fall,
+CS-4713,Analysis of Algorithms,CS,3,Core,,"CS-3113, MATH-2204",Fall,
+MATH-2183,Discrete Structures,MATH,3,Core,,,"Spring, Fall",
+MATH-2143,Business Calculus,MATH,3,Core_math,,,"Spring, Fall, Summer",
+MATH-2204,Calculus I,MATH,4,Core_math,,MATH-1023,"Spring, Fall, Summer",
+MATH-3243,Linear Algebra,MATH,3,Core,,MATH-2214,"Spring, Summer",
+STAT-3233,Applied Statistics-I,STAT,3,Core,,,"Spring, Fall, Summer",
+CHEM-1013,General Chemistry I,CHEM,3,Core,,,"Spring, Fall, Summer",
+CHEM-1011,General Chemistry I Lab,CHEM,1,Core,,,"Spring, Fall, Summer",
+PHYS-2044,University Physics II,PHYS,4,Core,MATH-2214,,"Spring, Fall",
+PHYS-2083,Fundamental Physics II,PHYS,3,Core,MATH-2214,,,Demand
+PHYS-2081,Fundamental Physics II Lab,PHYS,1,Core,MATH-2214,,,Demand
+EE-3333,Digital Electronics I,EE,3,Core,,CS-2114,Fall,
+ENG-3043,Technical Writing,ENG,3,Core,,,Spring,Odd
+PHIL-3723,"Computers, Ethics & Society",PHIL,3,Core,,,Spring,Even
+CS-4133,Compilers,CS,3,CS-Elective,,CS-3113,Fall,Even
+CS-4223,UNIX Systems Programming,CS,3,CS-Elective,,CS-3113,Fall,
+CS-4213,Distributed Computing,CS,3,CS-Elective,,CS-3113,Fall,Demand
+CS-4433,Artificial Intelligence,CS,3,CS-Elective,,CS-3113,Spring,Odd
+CS-4413,Computer Graphics I,CS,3,CS-Elective,,CS-3113,Spring,
+CS-4423,Computer Graphics II,CS,3,CS-Elective,,CS-4413,,Demand
+CS-4723,Automata Theory,CS,3,CS-Elective,,CS-3113,Fall,Odd
+CS-4823,Scripting Languages,CS,3,CS-Elective,,CS-3113,,Demand
+CS-4811,Computer Science Seminar,CS,1,CS-Elective,,CS-3113,,Demand
+CS-482V,Special Problems,CS,3,CS-Elective,,CS-3113,,Demand
+CS-483V,Internship,CS,15,CS-Elective,,CS-3113,,Demand
+MATH-4533,Numerical Method,MATH,3,CS-Elective,,"MATH-2214, CS-2114",Fall,Odd
+MATH-3254,Calculus III,MATH,4,CS-Elective,,MATH-2214,"Spring, Fall, Summer",
+CIT-3353,Web Site Design and Development,CIT,3,Ecommerce-Track,,,Fall,Even
+CIT-4453,Global E-Commerce,CIT,3,Ecommerce-Track,,,Spring,
+MKTG-3013,Marketing,MKTG,3,Ecommerce-Track,,,"Spring, Fall, Summer",
+JOUR-3673,Digital Design,JOUR,3,Ecommerce-Track,,,"Spring, Fall, Summer",
+CIT-3013,Management Information System,CIT,3,IT-Track,,,"Spring, Fall, Summer",
+CIT-2523,Telecommunications and Networking Essentials,CIT,3,IT-Track,,,Spring,
+CIT-3623,LAN Administration,CIT,3,IT-Track,,,Fall,
+BSYS-2563,Business Communication,BSYS,3,IT-Track,,ENG-1013,"Spring, Fall, Summer",
+ACCT-2023,Fundamental Accounting Concepts,ACCT,3,GenBusiness-Track,,,"Fall, Spring",
+FIN-3713,Business Finance,FIN,3,GenBusiness-Track,,ACCT-2023,"Spring, Fall, Summer",
+LAW-2023,Legal Environment of Business,LAW,3,GenBusiness-Track,,,"Spring, Fall, Summer",
+MGMT-3153,Organization Behavior,MGMT,3,GenBusiness-Track,,,"Spring, Fall, Summer",
+MKTG-3013,Marketing,MKTG,3,GenBusiness-Track,,,"Spring, Fall, Summer",

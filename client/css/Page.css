@@ -1,0 +1,193 @@
+/* CSS declarations go here */
+/*******************************************************/
+/* Header of the file */
+
+#header-planner {
+	background-color:#cc092f;
+}
+
+#header-planner > .container > div > a, 
+#header-planner > .container > div > ul > li > a {
+	color:#ecf0ff;
+	margin-right:15px;
+}
+
+#header-planner > .container a:hover {
+	color:#fff;
+	background-color:#d9534f;
+}
+
+/******************************************************/
+/* Sidebar */
+#sidebar-planner {
+	background-color:#ecf0f1;
+	padding:10px 0 0 10px;
+	height:88vh;
+	overflow: hidden;
+}
+
+#search {
+	width:95%;
+}
+
+#courses {
+	margin-top:10px;
+	height:90%;
+	overflow-y:auto;
+}
+
+/*********************************************************/
+/* Buttons toolbar */
+#toolbar {
+	overflow:hidden;
+}
+
+#buttons > a {
+	margin-top:10px;
+	margin-bottom:20px;
+	background-color:#e74c3c;
+}
+
+#buttons {
+	text-align:right;
+}
+
+#totalCredit {
+	margin-top:10px;
+	margin-bottom:20px;
+	font-size:20px;
+}
+
+/**********************************************************/
+/* Planner */
+#planner{
+	margin-left:5px;
+	padding-right:5px;
+	height:75vh;
+	overflow-y:auto;
+}
+
+.panel-body{
+	min-height:100px;
+}
+
+/* Class of each season */
+.past > .panel-heading,
+.past > .panel-heading > a {
+	background-color:#7f8c8d;
+	border-color:#7f8c8d;
+	color: #fff;
+}
+
+.past {
+	border-color:#7f8c8d;
+}
+
+.Summer > .panel-heading, 
+.Summer > .panel-heading > a  {
+	background-color:#c0392b;
+	border-color:#c0392b;
+	color: #fff;
+}
+
+.Summer {
+	border-color:#c0392b;
+}
+
+.Fall > .panel-heading, 
+.Fall > .panel-heading > a  {
+	background-color:#f1c40f;
+	border-color:#f1c40f;
+	color: #fff;
+}
+
+.Fall {
+	border-color:#f1c40f;
+}
+
+.Spring > .panel-heading, 
+.Spring > .panel-heading > a  {
+	background-color:#2ecc71;
+	border-color:#2ecc71;
+	color: #fff;
+}
+
+.Spring {
+	border-color:#2ecc71;
+}
+
+/**********************************************************/
+/* Modal */
+#addDialog > .modal-dialog,
+#updateDialog > .modal-dialog {
+	width:300px;
+}
+
+#addDialog > .modal-dialog > .modal-content > .modal-footer,
+#updateDialog > .modal-dialog > .modal-content > .modal-footer {
+	margin-top:5px;
+}
+
+#loadDialog > .modal-dialog{
+	width:400px;
+}
+
+#loadDialog > .modal-dialog > .modal-content > .modal-footer {
+	margin-top:5px;
+}
+
+.btn-file {
+	position:relative;
+	overflow:hidden;
+}
+
+.btn-file input[type=file] {
+	position:absolute;
+	top:0;
+	right:0;
+	min-width:100%;
+	min-height:100%;
+	font-size:20px
+	filter:alpha(opacity=0);
+	opacity:0;
+	outline:none;
+	cursor:pointer;
+}
+
+#uploadFile {
+	background-color:white !important;
+}
+
+.warning {
+	margin-top:10px;
+	margin-bottom:5px;
+	color:red;
+	height:14px;
+}
+
+
+/*****************************************************/
+/* Courses */
+.course {
+	width: 100px;
+	margin: 3px;
+	overflow:hidden;
+}
+
+/* Conflict */
+.prereq, .coreq, .season, .year {
+	border: 2px solid #f00;
+}
+
+/*******************************************************/
+/*Filter search*/
+#filterSearch {
+	background-color:#fff;
+	padding: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	width:95%;
+	border: 1px solid #ccc;
+}
+
+/********************************************************/

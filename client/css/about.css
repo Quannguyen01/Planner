@@ -1,0 +1,12 @@
+/*About page*/
+#about h1, #about p {
+	text-align: center;
+}
+
+#about h1 {
+	margin-bottom: 50px;
+}
+
+#about {
+	padding-top:100px;
+}

@@ -1,0 +1,37 @@
+<head>
+  <title>AState Planner</title>
+</head>
+
+<body>
+</body>
+
+<template name="layout">
+	{{>Header}}
+	{{>yield}}
+</template>
+
+<template name="Page">
+	{{>Content}}
+
+	<!--Modal dialogs, display when click-->
+	{{>loadDialog}}
+	{{>saveDialog}}
+	{{>addDialog}}
+	{{>updateDialog}}
+	{{>deleteDialog}}
+</template>
+
+<!--===========================================================-->
+<!--Maincontent after the nav-->
+<template name="Content">
+	<div class="container" id="content">
+		<div class="row">
+			<div class="col-sm-9 col-md-8">
+				{{>Planner}}
+			</div>
+			<div class="col-sm-3 col-md-4">
+				{{>Sidebar}}
+			</div>
+		</div>
+	</div>
+</template>

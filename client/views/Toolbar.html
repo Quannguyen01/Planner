@@ -1,0 +1,16 @@
+<!--===========================================================-->
+<!--Toolbar-->
+<template name="Toolbar">
+	<div id="toolbar">
+		<div class="row">
+		<div class="col-md-3" id="totalCredit">
+			Total Credit: {{total}}
+		</div>
+		<div class="col-md-9" role="toolbar" id="buttons">
+			<a type="button" class="btn btn-danger" title="Load" id="load" href="#loadDialog" data-toggle="modal"><span class="glyphicon glyphicon-folder-open"></span></a>
+			<a type="button" class="btn btn-danger" title="Save" id="save" data-toggle="modal"><span class="glyphicon glyphicon-floppy-disk"></span></a>
+			<a type="button" class="btn btn-danger" title="Add" id="add" data-toggle="modal"><span class="glyphicon glyphicon-plus"></span></a>
+		</div>
+		</div>
+	</div>
+</template>

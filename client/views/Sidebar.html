@@ -1,0 +1,40 @@
+<!--===========================================================-->
+<template name="Sidebar">
+<!--Side bar -->
+	<div id="sidebar-planner">
+		<div class="input-group" id="search">
+			<span class="input-group-btn">
+				<button id="filter" type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true">
+					<span class="glyphicon glyphicon-filter"></span>
+				</button>
+			</span>
+			<input id="searchBox" type="text" value="" class="form-control" placeholder="Search..."/>
+		</div>
+
+		<div id="filterSearch" style="display:none;">
+			Search courses by:
+			<div class="row">
+				<div class="col-md-6">
+					<input name="filter" type="checkbox" checked value="CourseID"> Course ID
+				</div>
+				<div class="col-md-6">
+					<input name="filter" type="checkbox" checked value="Name"> Course Name
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<input name="filter" type="checkbox" checked value="Category"> Course Category
+				</div>
+				<div class="col-md-6">
+					<input name="filter" type="checkbox" checked value="Subject"> Subject
+				</div>
+			</div>
+		</div>
+
+		<div id="courses" class="link">
+			{{#each course}}
+				<a class="btn btn-default text-center course" title="{{Name}}">{{CourseID}}</a>
+			{{/each}}
+		</div>
+	</div>
+</template>
