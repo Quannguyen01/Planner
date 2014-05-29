@@ -180,16 +180,10 @@ seasonConflict = function(course,semester){
 	if (semester != "Transfer") {
 		var courseSeason = course.Season;
 
-		var i = 0;
-		var found = false;
-		while (!found && i < courseSeason.length){
-			found = (courseSeason[i] == semester);
-			i++;
-		}
+		var found = courseSeason.indexOf(semester);
 
-		if(!found){
+		if (found == -1) {
 			addConflict(course, 'season');
-			console.log('conflict added');
 		}
 	}
 }
